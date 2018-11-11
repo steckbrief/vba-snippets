@@ -1,5 +1,5 @@
 ' This function allows to lookup a value in a range and join it by jointext
-Public Function allVlookup(lookupval, lookuprange As Range, indexcol As Long, jointext As String)
+Public Function joinVlookup(lookupval, lookuprange As Range, indexcol As Long, jointext As String)
     Dim x As Range
     Dim result As String
     result = ""
