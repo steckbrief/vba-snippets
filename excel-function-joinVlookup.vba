@@ -17,5 +17,5 @@ Public Function joinVlookup(lookupval, lookuprange As Range, indexcol As Long, j
             End If
         End If
     Next x
-    allVlookup = result
+    joinVlookup = result
 End Function
